@@ -1,0 +1,13 @@
+server:
+  port : 8080
+spring:
+  mongo:
+    connections:
+      tee-db:
+       hostStr: mongodb://localhost:27017
+       database: react
+       
+       
+       
+
+
